@@ -1,144 +1,162 @@
-# HR Analytics Dashboard
+<div align="center">
 
-## Overview
+# 📊 HR Analytics Dashboard
 
-The HR Analytics Dashboard is a Power BI project designed to help Human Resource teams make data-driven decisions by analyzing workforce trends, employee demographics, attrition patterns, promotions, and departmental performance.
+### Power BI Dashboard for Workforce Analytics, Attrition Prediction & HR Decision Making
 
-The dashboard transforms raw HR data into actionable insights through interactive visualizations and KPI tracking, enabling organizations to improve employee retention, workforce planning, and overall HR strategy.
+![Power BI](https://img.shields.io/badge/PowerBI-Dashboard-F2C811?style=for-the-badge\&logo=powerbi)
+![Analytics](https://img.shields.io/badge/Data-Analytics-blue?style=for-the-badge)
+![HR](https://img.shields.io/badge/HR-Insights-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Project-Completed-brightgreen?style=for-the-badge)
 
----
-
-## Features
-
-### Workforce Overview
-
-* Total Employees
-* Active Employees
-* Employee Distribution by Department
-* Gender Diversity Analysis
-
-### Attrition Analysis
-
-* Overall Attrition Rate
-* Attrition by Department
-* Attrition by Age Group
-* Attrition by Education Level
-* Attrition by Job Role
-
-### Employee Demographics
-
-* Age Distribution
-* Gender Distribution
-* Education Background
-* Marital Status Analysis
-
-### Performance & Promotion Insights
-
-* Promotion Eligibility Analysis
-* Service Years Distribution
-* Employee Experience Tracking
-* Department-wise Performance Metrics
-
-### Interactive Dashboard
-
-* Dynamic Filters and Slicers
-* Department-Level Drilldowns
-* Visual KPI Monitoring
-* User-Friendly Data Exploration
+</div>
 
 ---
 
-## Dashboard Insights
+## 🚀 Project Overview
 
-The dashboard helps answer key HR questions such as:
+This project presents an interactive HR Analytics Dashboard built using Power BI to transform employee data into actionable business insights.
 
-* Which departments have the highest attrition rates?
-* What age groups are most likely to leave the organization?
-* How does employee tenure impact retention?
-* What is the gender distribution across departments?
-* Which employees are eligible for promotion?
+The dashboard helps organizations monitor workforce trends, employee attrition, diversity metrics, promotion eligibility, and departmental performance, enabling data-driven HR decisions.
+
 
 ---
 
-## Technologies Used
+# 🎯 Business Problem
 
-| Tool        | Purpose                     |
-| ----------- | --------------------------- |
-| Power BI    | Dashboard Development       |
-| Excel       | Data Cleaning & Preparation |
-| DAX         | KPI Calculations            |
-| Power Query | Data Transformation         |
+Organizations often struggle to identify:
 
----
+* High employee attrition departments
+* Promotion opportunities
+* Workforce diversity trends
+* Employee retention risks
+* Department performance gaps
 
-## Key Performance Indicators (KPIs)
-
-* Employee Count
-* Attrition Rate
-* Active Workforce
-* Average Service Years
-* Promotion Eligibility
-* Department Performance Metrics
+This dashboard provides a centralized analytics solution to address these challenges.
 
 ---
 
-## Project Workflow
+# 📈 Key Performance Indicators
 
-1. Data Collection
-2. Data Cleaning and Transformation
-3. Data Modeling
-4. DAX Measure Creation
-5. Dashboard Design
-6. KPI Visualization
-7. Business Insight Generation
+| KPI                      | Description                           |
+| ------------------------ | ------------------------------------- |
+| 👥 Total Employees       | Current workforce size                |
+| 📉 Attrition Rate        | Employee turnover percentage          |
+| 🏢 Department Analysis   | Department-wise employee distribution |
+| ⏳ Service Years          | Workforce experience insights         |
+| 🚹🚺 Gender Ratio        | Diversity analysis                    |
+| 🚀 Promotion Eligibility | Promotion tracking metrics            |
 
----
-
-## Business Impact
-
-This dashboard enables HR teams to:
-
-* Monitor workforce health.
-* Identify high-risk attrition areas.
-* Improve employee retention strategies.
-* Track diversity and inclusion metrics.
-* Support strategic workforce planning.
 
 ---
 
-## Dashboard Preview
+# ⚙️ Tech Stack
 
-<img src="powerbi_image.jpeg"/>
+<table>
+<tr>
+<td align="center">
+<img src="https://img.icons8.com/color/96/power-bi.png" width="60"/><br>
+Power BI
+</td>
+
+<td align="center">
+<img src="https://img.icons8.com/color/96/ms-excel.png" width="60"/><br>
+Excel
+</td>
+
+<td align="center">
+<img src="https://img.icons8.com/color/96/combo-chart.png" width="60"/><br>
+DAX
+</td>
+
+<td align="center">
+<img src="https://img.icons8.com/color/96/database.png" width="60"/><br>
+Data Modeling
+</td>
+</tr>
+</table>
+
+---
+
+# 🔄 Project Workflow
 
 ```text
-screenshots/
-├── overview.png
-├── attrition-analysis.png
-├── demographics.png
-└── performance-metrics.png
+Raw HR Dataset
+      │
+      ▼
+Data Cleaning
+      │
+      ▼
+Power Query
+      │
+      ▼
+Data Modeling
+      │
+      ▼
+DAX Calculations
+      │
+      ▼
+Interactive Dashboard
+      │
+      ▼
+Business Insights
 ```
 
 ---
 
-## Future Enhancements
+# 💡 Key Insights Generated
 
-* Predictive Attrition Analysis using Machine Learning.
-* Employee Sentiment Analysis.
-* Real-Time HR Data Integration.
-* Advanced Workforce Forecasting.
+✔ Department-wise Attrition Trends
 
----
+✔ Employee Age Group Distribution
 
-## Author
+✔ Promotion Eligibility Analysis
 
-Tanmay Jana
+✔ Gender Diversity Metrics
 
-GitHub: https://github.com/dev-tanmay-jana
+✔ Workforce Experience Distribution
 
-LinkedIn: https://www.linkedin.com/in/tanmay-jana-133606369/
-
-Email: [tanmayjana074@gmail.com](mailto:tanmayjana074@gmail.com)
+✔ Employee Retention Insights
 
 ---
 
-⭐ If you found this project useful, consider giving it a star.
+# 📂 Repository Structure
+
+```text
+HR_Dashboard/
+│
+├── HR_Analytics_Dashboard.pbix
+├── Dataset/
+│   └── HR_Analytics.csv
+├── screenshots/
+│   ├── dashboard-overview.png
+└── README.md
+```
+
+---
+# Dashboard Preview
+
+<img src="powerbi_image.jpeg" />
+
+# 🔮 Future Improvements
+
+* Machine Learning Based Attrition Prediction
+* Employee Performance Forecasting
+* Real-Time Data Integration
+* Predictive HR Analytics
+
+---
+
+# 👨‍💻 Author
+
+### Tanmay Jana
+
+📧 [tanmayjana074@gmail.com](mailto:tanmayjana074@gmail.com)
+
+🔗 GitHub: https://github.com/dev-tanmay-jana
+
+🔗 LinkedIn: https://www.linkedin.com/in/tanmay-jana-133606369/
+
+---
+
+⭐ If you found this project useful, consider giving it a star!
